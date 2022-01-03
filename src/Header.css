@@ -1,0 +1,29 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  border-bottom: 0.1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 999;
+}
+.logo__name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+}
+.logo__name:hover {
+  color: rgb(214, 200, 200);
+}
+.header__left {
+  display: flex;
+}
+.header__right {
+  display: flex;
+}
